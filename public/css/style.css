@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.divBlock {
+    margin-top: 20px;
+
+}
+.img_News {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+h2 .title {
+    text-decoration: none;
+    color: black;
+}
+.block {
+    text-align: center;
+}
+.one_img {
+    width: 1000px;
+}
+.cont {
+    text-align: center;
+}
+.navbar{
+    font-size: 28px;
+}

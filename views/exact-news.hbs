@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/css/style.css">
+<div class="cont">
+    <img class="one_img" src="{{news.imgUrl}}" alt="">
+    <h2>{{news.title}}</h2>
+    <p>{{news.subtitle}}</p>
+    <div class="comments">
+        {{#each objComments}}
+            <p>{{user}}</p>
+        <p>{{comment}}</p>
+        {{/each}}
+
+        <form action="/title/{{news._id}}/comment" method="post">
+            <input type="text" name="user" placeholder="your name">
+            <input type="text" name="comment" placeholder="your comment">
+            <input type="submit" value="send">
+        </form>
+    </div>
+</div>
